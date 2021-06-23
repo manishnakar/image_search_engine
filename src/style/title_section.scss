@@ -1,0 +1,25 @@
+app_title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3em;
+  background-color: #00ffdd;
+  padding: 13px;
+  @media screen and (max-width: 375px) {
+    font-size: 1em;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 2em;
+  }
+}
+.app_subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 23px;
+  margin-top: -20px;
+  @media screen and (max-width: 375px) {
+    font-size: 12px;
+    margin-top: -9px;
+  }
+  @media screen and (max-width: 425px) {
+    font-size: 13px;
+    margin-top: -7px;
+  }
+}

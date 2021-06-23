@@ -1,0 +1,35 @@
+@import "search_bar.scss";
+@import "title_section.scss";
+
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+
+  .query_results {
+    padding: 1em;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    background-color: black;
+
+    @media screen and (max-width: 320px) {
+      display: flex;
+      flex-direction: column;
+      img {
+        height: "145px";
+      }
+    }
+    @media screen and (max-width: 425px) {
+      display: flex;
+      flex-direction: column;
+      img {
+        height: "245px";
+      }
+    }
+  }
+}
